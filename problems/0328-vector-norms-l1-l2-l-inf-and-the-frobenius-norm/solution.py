@@ -28,7 +28,7 @@ def compute_norm(arr: np.ndarray, norm_type: str) -> float:
         case 'frobenius':
             print(f"frobenius: {arr}")
             if arr.ndim != 2: 
-                raise ValueError("frobenius is not 2D")
+                raise ValueError(...)
             return np.linalg.norm(arr, ord='fro')
         case _:
             return "Unknown Vector Norms"

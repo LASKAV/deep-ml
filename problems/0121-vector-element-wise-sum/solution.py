@@ -6,8 +6,8 @@ def vector_sum(a: list[int|float], b: list[int|float]) -> list[int|float]:
         return -1 
 
     c = []
+    
     for i in range(len(a)):
-         sum_element = a[i] + b[i]
-         c.append(sum_element)
-		 
+         c.append(a[i] + b[i])
+
     return c
